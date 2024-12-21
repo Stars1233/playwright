@@ -9,9 +9,9 @@
     },
     {
       "name": "chromium-tip-of-tree",
-      "revision": "1287",
+      "revision": "1288",
       "installByDefault": false,
-      "browserVersion": "133.0.6901.0"
+      "browserVersion": "133.0.6905.0"
     },
     {
       "name": "firefox",
@@ -45,12 +45,17 @@
     },
     {
       "name": "ffmpeg",
-      "revision": "1010",
+      "revision": "1011",
       "installByDefault": true,
       "revisionOverrides": {
         "mac12": "1010",
         "mac12-arm64": "1010"
       }
+    },
+    {
+      "name": "winldd",
+      "revision": "1007",
+      "installByDefault": false
     },
     {
       "name": "android",
